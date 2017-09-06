@@ -1,0 +1,191 @@
+html {
+	font-size:14px;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
+img {
+	width:100%;
+}
+
+.image-container img:hover {
+	transition:transform .5s, opacity .5s;
+	opacity:1;
+  -webkit-transform: scale(1.07);
+  -ms-transform: scale(1.07);
+  transform: scale(1.07);
+}
+
+.image-container:hover {
+	transition:transform .5s, opacity .5s;
+	opacity:1;
+}
+
+
+
+/* nav */
+.navbar {
+	font-size:1.1rem;
+	font-weight:600;
+}
+
+.navbar-default .navbar-nav > .active > a {
+	background-color: inherit;
+    color: #399bd1;
+}
+
+.navbar-default .navbar-nav > .active > a:hover {
+	background-color: inherit;
+    color: #399bd1;
+}
+
+@media all and (max-width:770px) {
+	nav img {
+		display:none;
+	}
+
+}
+
+/*main jumbotron */
+
+.jumbotron {
+  height: 44rem;
+  padding-top: 10rem;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: -1px -1px 0 #000,     1px -1px 0 #000,     -1px 1px 0 #000,     1px 1px 0 #000;
+}
+
+.jumbotron-bike {
+  background-image: url("../images/jumbotron-bike.jpg");
+}
+.jumbotron-duffel {
+  background-image: url("../images/jumbotron-duffel.jpg");
+}
+.jumbotron-flowers {
+  background-image: url("../images/jumbotron-flowers.jpg");
+}
+.jumbotron-beer {
+  background-image: url("../images/jumbotron-beer.jpg");
+}
+
+.jumbotron button {
+	padding:1.3rem auto;
+	box-shadow:0 0 3px rgba(0,0,0,0.5);
+	background-color:#399bd1;
+	margin-top:2.8rem;
+	width:11.4rem;
+	padding-top:1.3rem;
+	padding-bottom:1.3rem;
+}
+.jumbotron button:hover {
+	box-shadow:0 0 12px rgba(0,0,0,0.9);
+		background-color:#399bd1;
+}
+.jumbotron button:active {
+	box-shadow:0 0 0 rgba(0,0,0,0.5);
+		background-color:#399bd1;
+}
+
+.jumbotron h1 {
+  font-family: "Monoton", sans-serif;
+  font-size: 7.1rem;
+}
+
+.jumbotron p {
+  max-width: 51.3rem;
+  margin: auto;
+}
+
+@media all and (max-width:770px) {
+	.jumbotron h1 {
+		font-size:5.7rem;
+	}
+}
+
+/* Featured Project  */
+
+
+.featured img {
+	height:19rem;
+	width:100%;
+}
+
+.image-container {
+	opacity:0.7;
+	overflow:hidden;
+}
+
+.container-header {
+	font-size:1.7rem;
+	font-weight:bold;
+	margin:20px 0px;
+	padding:0px;
+	color:#399bd1;
+}
+
+h3 {
+	font-size:1.3rem;
+	font-weight:bold;
+}
+.categories h3 {
+	color:#399bd1;
+
+}
+
+.categories li {
+	line-height:1.4;
+	color:rgba(0,0,0,0.7);
+}
+
+/* Project Section */
+
+
+.container.project {
+	    margin-bottom: 5.85rem;
+}
+.project img {
+	height:13.5rem;
+}
+
+
+/* help section */
+
+.help {
+	  text-align: center;
+	  background-color:#f3f3f3;
+	  width:100%;
+}
+.help h1 {
+	font-size:2.5rem;
+	font-weight:bold;
+	padding-top:5.2rem;
+}
+.help p {
+	max-width:42rem;
+	margin:0 auto;
+}
+
+.help button {
+	padding:1.3rem auto;
+	box-shadow:0 0 3px rgba(0,0,0,0.5);
+	background-color:#399bd1;
+	margin-top:2.8rem;
+	width:11.4rem;
+	margin-bottom:5.2rem;
+	padding-top:1.3rem;
+	padding-bottom:1.3rem;
+}
+.help button:hover {
+	box-shadow:0 0 12px rgba(0,0,0,0.9);
+		background-color:#399bd1;
+}
+.help button:active {
+	box-shadow:0 0 0 rgba(0,0,0,0.5);
+		background-color:#399bd1;
+}
